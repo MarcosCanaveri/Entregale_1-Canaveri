@@ -103,15 +103,6 @@ switch (visitantes) {
         console.log("Selección erronea, intente de nuevo por favor")
 }
 
-        if (dias >= 5 && dias <= 9) {
-            let preciofinal = preciototal / 100 * 90
-            console.log("El precio total con descuento es de $", preciofinal)
-        }
-        else (dias >= 10); {
-            let preciofinal = preciototal / 100 * 80
-            console.log("El precio total con descuento es de $", preciofinal)
-        }
-
 let habitacionessimples = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let habitacionsdobles = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 let habitacionestriples = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
